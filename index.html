@@ -30,6 +30,7 @@
 			document.getElementById("user").innerHTML="<img src='scissors-cartoon.png'>";
 		}
 		function go(){
+	if(user==1 || user==2 || user==3){
 		//random integer calculation. Math.random creates a float so we changed it to an integer 
 			comp=parseInt(Math.random()*3)+1;
 			//insert computer's picture
@@ -73,6 +74,10 @@
 					document.getElementById("wld").innerHTML="WIN!";
 				}
 			}
+		}
+		else{
+			alert("Please choose an option");
+		}
 		}
 		</script>
 	</body>
