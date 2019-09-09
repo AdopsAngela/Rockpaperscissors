@@ -10,14 +10,17 @@ button{
 	margin:10px;
 	font-size:250%;
 }
+img{
+	width:400px;
+}
 #user{
-	background:green;
+	background:blue;
 	width:50%;
 	height:100%;
 	float:left;
 }
 #comp{
-	background:red;
+	background:pink;
 	width:50%;
 	height:100%;
 	float:right;
